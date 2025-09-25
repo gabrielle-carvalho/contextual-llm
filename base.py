@@ -15,7 +15,7 @@ import ollama   # integração com LLaMA via Ollama
 
 class Hearing:
     def __init__(self,
-                 model_size='small',
+                 model_size='small.en',
                  device='cpu',
                  sample_rate=16000,
                  silence_timeout=1.0,
